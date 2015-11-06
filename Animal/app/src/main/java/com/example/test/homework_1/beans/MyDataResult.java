@@ -35,9 +35,9 @@ public class MyDataResult {
 
     public static class ResultItem {
         private String _id;
-		private String className;
-		private String Question;
-		private String Ask;
+		private String 類別;
+		private String 提問;
+		private String 回覆;
 
         public String get_id() {
 			return _id;
@@ -45,17 +45,17 @@ public class MyDataResult {
 
 
 		public String getclassName() {
-			return className;
+			return 類別;
 		}
 
 
 		public String getQuestion() {
-			return Question;
+			return 提問;
 		}
 
 
 		public String getAsk() {
-			return Ask;
+			return 回覆;
 		}
 
     }
