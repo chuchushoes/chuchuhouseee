@@ -1,4 +1,4 @@
-package com.example.test.homework_1;
+﻿package com.example.test.homework_1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void volley() {
-        String requestURL = "http://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=301b17d5-d643-4aad-8bd4-e3cbe0c35731";
+        String requestURL = "http://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=301b17d5-d643-4aad-8bd4-e3cbe0c35731&limit=10";
 
         final StringRequest getDataRequest = new StringRequest(
                 Request.Method.GET,
