@@ -35,28 +35,33 @@ public class MyDataResult {
 
     public static class ResultItem {
         private String _id;
-		private String className;
-		private String Question;
-		private String Ask;
+		private String 提問;
+		private String 答覆;
+        private String 相關連結網址;
+        private String 相關連結說明;
+
 
         public String get_id() {
 			return _id;
 		}
 
 
-		public String getclassName() {
-			return className;
-		}
-
-
 		public String getQuestion() {
-			return Question;
+			return 提問;
 		}
 
 
 		public String getAsk() {
-			return Ask;
+			return 答覆;
 		}
+
+        public String getURL() {
+            return 相關連結網址;
+        }
+
+        public String getLinkQ() {
+            return 相關連結說明;
+        }
 
     }
 }

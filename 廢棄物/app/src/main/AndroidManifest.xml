@@ -3,7 +3,6 @@
     package="com.example.test.homework_1" >
 
     <uses-permission android:name="android.permission.INTERNET"/>
-	internet
 
     <application
         android:allowBackup="true"
