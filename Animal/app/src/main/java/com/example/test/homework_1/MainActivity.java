@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
                         String tmpResult = "";
                         for (MyDataResult.ResultItem resultItem : myDataResult.getResult().getResults()) {
-							tmpResult += resultItem.get_id() + "\n"+ resultItem.getclassName() + "\n"+resultItem.getQuestion() + "\n"+resultItem.getAsk() + "\n\n";
+							tmpResult += resultItem.get_id() +"\n"+"提問："+resultItem.getQuestion() + "\n"+"答覆："+resultItem.getAsk() +"\n"+"相關連結網址："+resultItem.getURL() +"\n"+"相關連結說明："+resultItem.getLinkQ() + "\n\n";
 						}
 
                         Text.setText(tmpResult);
